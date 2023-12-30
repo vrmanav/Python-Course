@@ -22,9 +22,7 @@
 from random import randint
 
 attempts = 0
-end_of_game = False
 generated_no = randint(1, 101)
-print(f"HINT: {generated_no}")
 
 
 def set_attempts(difficulty):
